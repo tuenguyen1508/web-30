@@ -1,0 +1,57 @@
+/**{
+	font-size: 16px;
+}*/
+div{
+	/*width: 400px;
+	height: 200px;*/
+	/*background-color: gray;*/
+}
+.city1{
+	color: red;
+}
+.city2{
+	color:green;
+}
+#a4{
+	color: yellow;	
+}
+#my-div ~ p{
+	color: red;
+}
+#mu-div > p{
+
+}
+p , div,span{
+	color:red;
+}
+#my-div {
+	background-image: url(../images3/anhdep.jpg);
+	background-repeat: repeat-x;
+/*	height: 10000px;
+*/	background-attachment: fixed;
+	font-family: Arial;
+	font-style: oblique;
+	font-size: 50px;
+	font-weight: bold;
+	/*text-indent: 300px;	*/
+	text-align: center;	
+}
+#ab1{
+	text-align: left;
+	text-decoration: underline;
+}
+#ab2{
+	text-align: right;
+	text-decoration: overline;
+}
+#ab3:hover{
+	text-align: center;
+	text-decoration: line-through;
+	color: yellow;
+}
+ul>li{
+	display: inline-block;
+}
+#div2{
+	
+}

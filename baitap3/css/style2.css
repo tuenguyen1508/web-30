@@ -1,0 +1,28 @@
+.border{
+	width: 55%;
+	height:100px;	
+	display: inline-block;
+	background-color: #E1E0E0;
+}
+.menu{
+	width:25%;
+	height:100%;	
+	float: left;
+
+}
+#employee{
+	width: 25%;
+	height:100%;
+	float:left;
+}
+span{
+	font:Arial;
+	font-size: -1;
+}
+.option{
+	font-weight: bold;
+}
+.option:hover{
+	color: red;
+	text-decoration: underline;
+}
