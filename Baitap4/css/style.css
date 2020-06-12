@@ -1,0 +1,163 @@
+body{
+	background-image:url(../image4/bg.jpg);
+	font-family: arial;
+	font-size: 12px;
+	margin: 0;
+}
+.website{
+	width: 100%;
+}
+.header-left{
+	width: 15%;
+	height: 100px;
+	float: left;
+}
+.header-right{
+	width: 85%;
+	height: 100px;	
+	float: left;
+}
+#header-right1{
+	list-style: none;
+	text-align: center;
+}
+.hr1{
+	display: inline-block;
+	margin-right: 10px;
+	padding: 5px;
+}
+#button{
+	border-radius: 11px;
+	background-color: #D3D2D2;
+	border:1px groove;
+}
+#header1{
+	margin-left: 10px;
+	padding:5px;
+	font-weight: bold;
+	font-size:24px;
+}
+.main{
+	width: 100%;
+	height: 550px;
+	clear: both;
+}
+.main-left{
+	width: 15%;
+	float: left;
+}
+.main-left1{	
+	margin: 5px;
+}
+.mf1{
+	list-style: none;
+	padding: 5px;
+}
+.mf1:hover{
+	color: red;
+	text-decoration: underline;
+}
+.main-right{
+	width: 85%;
+	float:right;
+	position: relative;
+}
+.mr{
+	width: 250px;
+	height: 160px;
+	border:1px solid black;
+	border-radius: 10px;
+	position:relative;
+
+}
+#mr1{
+	position: absolute;
+	top: 0px;left: 0px;
+	background-image:url(../image4/ip.jpg);
+	background-size: 100%;	
+}
+#mr2{
+	position: absolute;
+	top: 0px; left: 260px;
+	background-size: 100%;	
+	background-image: url(../image4/travel.jpg);
+}
+#mr3{
+	position: absolute;
+	top: 0px; left: 520px;
+	background-size: 100%;
+	background-image: url(../image4/photo.jpg);	
+}
+
+#mr4{
+	position: absolute;
+	top: 170px; left:0px;
+	background-size: 100%;
+	background-image: url(../image4/finance.jpg);	
+}
+#mr5{
+	position: absolute;
+	top: 170px; left:260px;
+	background-size: 100%;	
+	background-image: url(../image4/movie.jpg);
+}
+
+#mr6{
+	position: absolute;
+	top: 170px; left: 520px;
+	background-size: 100%;	
+	background-image: url(../image4/cooking.jpg)
+}
+#mr7{
+	position: absolute;
+	top: 340px; left: 0px;
+	background-size: 100%;	
+	background-image: url(../image4/fashion.jpg);
+}
+
+.footer{
+	width: 100%;
+	height:35px;
+	/*background-color: black;*/
+}
+.footer-left{
+	width: 15%;
+	float:left;
+}
+.footer-right{
+	width: 85%;
+	float: left;
+	text-align:left;
+}
+.fr{
+	list-style: none;
+	display: inline-block;
+	padding:0;
+	margin:0;
+	text-decoration: underline;
+	color:blue;
+	margin-right: 15px;
+}
+.mr11{
+	background-color: #E1DCDC;
+	margin:0;
+	padding:6px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;	
+	font-weight: bold;
+	font-size: 15px;
+}
+.mr12{
+	position: absolute;
+	bottom:0;left:0;
+	opacity: 0.8;
+	background-color: black;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin: 0;
+	width: 100%;
+	color: white;
+
+
+}
+	

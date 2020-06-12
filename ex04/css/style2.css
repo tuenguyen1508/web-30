@@ -1,0 +1,22 @@
+ul{
+	list-style: none;
+	width: 420px;
+	background-color:yellow;
+	padding: 0;
+	/*height: 30px;*/
+	line-height: 200%;
+	padding: 5px 0;
+	position: relative;
+}
+ul>li{
+	margin: 0;
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+	padding-top:6px;
+	border-right:1px solid gray;
+
+}
+ul>li:last-child{
+	border-width: 0;
+}
