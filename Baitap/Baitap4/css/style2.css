@@ -17,7 +17,7 @@ ul>li.item{
 	text-align: center;
 	border-right: 1px solid white;
 	color: white;
-	margin: 5px;
+	/*margin: 5px;*/
 }	
 .sub-menu {
     display: none;
@@ -27,23 +27,23 @@ ul>li.item{
 }
 #sub-menu1{
 	position: absolute;
-    top: 71px;left:17px;
+    top: 60px;left:17px;
  }	
 #sub-menu2{
 	position: absolute;
-    top: 71px;left: 333px;
+    top: 60px;left: 307px;
 }
 .sub-item {
     list-style: none;
     border-bottom: 1px solid green;
     text-align: left;
-    text-indent: 2px;	
+    text-indent: 2px;
+	position: relative;
 }
 .sub-item:hover{
 	display: block;
 	color: white;
-	background-color: #24B632;
-	position: relative;	
+	background-color: #24B632;	
 }
 .item:hover .sub-menu{
     display: block;
@@ -53,11 +53,10 @@ ul>li.item{
 	color: black;
 	background-color: #2AC710;
 	border-bottom: 1px solid #06911A;
+	text-align:left;
 	position: absolute;
-	top:24px;left:136px;
-	text-align: left;
-	display:none;
+	left:136px;
 }
-.sub-item-sub:hover{
+/*.sub-item-sub:hover{
 	display:block;
-}
+}*/
