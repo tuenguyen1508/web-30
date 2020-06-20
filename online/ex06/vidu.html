@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.mydiv{
+			width: 200px;
+			height: 200px;
+			position: relative;
+		}
+
+		img{
+			width: 100%;
+		}
+
+		.infor{
+			width: 100%;
+			color: black;
+			position: absolute;
+			bottom: 0;
+			background-color:rgba(255,255,255,0.3);
+			height: 50px;
+			overflow: hidden;
+			transition:height 3s;
+		}
+		.mydiv:hover .infor{
+			height: 100%;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="mydiv">
+		<img src="../../Baitap/img1/dabong2.jpg" alt="">
+		<div class="infor">
+			<h3>Iphone 11 Pro</h3>
+			<h3>Price: 499$</h3>
+			<h3>only use for Snoop Dog</h3>
+		</div>
+	</div>
+</body>
+</html>

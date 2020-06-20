@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.div1{
+			width: 100px;
+			height: 100px;
+			position: relative;	
+			animation-name: move;
+			animation-duration: 4s;
+			/*animation-delay: 2s;*/
+			animation-iteration-count: infinite;
+			animation-direction: alternate;		
+		}
+
+		.div2{
+			width: 200px;
+			height: 200px;
+			background-color: lightgreen;
+			transition: width 1s, height 1s;
+		}
+
+		.div2:hover{
+			width: 400px;
+			height: 400px;
+		}
+
+		.div3{
+			width: 200px;
+			height: 200px;
+			background-color: lightblue;
+			border: 1px solid black;
+
+		}
+		.div3:hover{
+			transform: rotate(45deg);
+			/*transform: scale(2,2);*/
+		}
+
+		.div4{
+			width: 200px;
+			height: 200px;
+			background:linear-gradient(to right,blue,green);
+			box-shadow: 10px 10px 5px red;
+			text-shadow: 10px 10px 5px red;
+		}
+
+		@keyframes move {
+			from{
+				background-color: red;
+				left: 0;
+			}
+			
+			25%{
+				background-color: black;
+				left: 25%;
+			}
+
+			50%{
+				background-color:green;
+				left:50%;
+			}
+
+			75%{
+				background-color: purple;
+				left: 75%;
+			}
+
+			to{
+				background-color: yellow;
+				left: 100%;
+			}
+
+		}
+	</style>
+</head>
+<body>
+	<div class="div1"></div>
+	<br>
+	<div class="div2"></div>
+	<br>
+	<div class="div3"></div>
+	<br>
+	<div class="div4">
+		<h1>Hello world</h1>
+	</div>
+</body>
+</html>
