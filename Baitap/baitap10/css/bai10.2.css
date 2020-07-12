@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.image {
+	width: 1000px;
+	height: 400px;
+	float: left;
+}
+
+.slide {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.nextimage {
+	width: 1000px;
+	transition: all 0.5s;
+}
+
+#nextleft {
+	position: absolute;
+	top: 31%;left: 185px;
+	height: 40px;width: 40px;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	background-color: white;
+	opacity: 0.5;
+}
+
+#nextright {
+	position: absolute;
+	top: 32%;left: 1125px;
+	height: 40px;width: 40px;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	background-color: white;
+	opacity: 0.5;
+}
+
+.point-image {
+	width: 20px;height: 20px;
+	background-color: white;
+	opacity: 0.5;
+	float: left;
+	position: relative;
+	margin-right: 10px;
+	top: -60px;left: 700px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="css/bai10.1.css">
+</head>
+<body>
+	<form id="background" name="frm">
+		<div id="main">
+			<div class="main1">
+				<div class="tieude">Name</div>
+				<input type="text" class="input" placeholder="" name="name">
+				<div class="thongbao"></div>
+			</div>
+			<div class="main1">
+				<div class="tieude">Gender</div>
+				<div id="Nam"><input type="radio" value="Nam" name="gioitinh">Men</div>
+				<div id="Nu"><input type="radio" value="Nữ" name="gioitinh">Women</div>
+				<div class="thongbao"></div>
+			</div>
+			<div class="main1">
+				<div class="tieude">Email</div>
+				<input type="text" class="input" placeholder="Nhập email ..." name="email">
+				<div class="thongbao"></div>
+			</div>
+			<div class="main1">
+				<div class="tieude">PhoneNumber</div>
+				<input type="number" class="input" placeholder="Nhập số điệnt thoại ..." name="phonenumber">
+				<div class="thongbao"></div>
+			</div>
+			<div class="main1">
+				<div class="tieude">Password</div>
+				<input type="password" class="input" name="password">
+				<div class="thongbao"></div>
+			</div>
+			<div class="main1">
+				<div class="tieude">Confirm Password</div>
+				<input type="password" class="input" name="testpass">
+				<div class="thongbao"></div>
+			</div>
+		</div>
+		<button type="button" id="done" onclick="test2()">Create</button>
+		<button  id="delete" onclick="deleteAll()">Clean All</button>
+	</form>
+</body>
+<script src="js/bai10.1.js"></script>
+</html>
