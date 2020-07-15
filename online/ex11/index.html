@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JQuery buoi 1</title>
+	<style>
+		.container{
+			width: 200px;
+			height: 500px;
+			padding: 0 20px;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+	<div class="container class_1">
+		<h1 class="myText">Hello</h1>
+		<h1 class="myText" >Hello</h1>
+		<h1 class="myText2">Hello</h1>
+		<h1 id="myName">Tue</h1>
+		<p>oecihqohiwihoqcwrih</p>
+	</div>
+	<button id="myButton">Click me</button>
+	<form action="" name="frm">
+		<input type="text" name="email" value="tuenguyen15081997@gmail.com">
+		<input type="password">
+		<input type="radio">
+	</form>
+</body>
+	<script>
+		var text = document.getElementsByTagName('h1');
+		$(document).ready(function(){
+			var text =$('h1');//get element by tag name
+			text.css('color', 'red');
+			var textMyName =$('#myName');//get element by id 
+			console.log(text);
+			var text =$('.myText');//get element by class
+			console.log(text);
+			var text =$('h1.myText2');//get element by tag.classname
+			console.log(text);
+			var text =$('h1#myName');//get element by tag#id
+			console.log(text);	
+			var input_1 = $(':text');
+			var input_2 = $(':password');
+			var input_3 = $(':radio');
+			console.log(input_1, input_2, input_3);
+
+			console.log(textMyName.text());
+			console.log(textMyName.text('Nguyen Tri Tue'));
+
+			// console.log($('.container').html());
+			// console.log($('.container').html('<h2>xin chao web FE 30</h2>'));
+			
+			console.log(input_1.val());
+			console.log(input_1.val('tuenguyen197@gmail.com'));
+
+			console.log(textMyName.css('font-size'));
+			console.log(textMyName.css('font-size','40px'));
+			
+			console.log('width' +  $('.container'.width));
+			console.log('innerWidth' +  $('.container'.innerWidth));
+			$('.container').width(300);
+
+			console.log('height' +  $('.container'.Height));
+			console.log('innerHeight' +  $('.container'.innerHeight));
+			$('.container').height(600);
+
+			$('p').remove();// loai bo element dc xac dinh
+
+			$('.container').append('<h2 class="my-text-h2">Web font-end 30</h2>');	
+			$('.container').before('<h2>Web font-end 30</h2>');	
+			$('.container').after('<h2>Web font-end 30</h2>');	
+
+			$('container').addClass('class_1');// them class class_1
+			$('container').removeClass('class_2');//xoa class class_2
+
+			$('container').toggleClass('class_1');
+			// neu co class1  =>remove
+			// neu chua co class1 => add
+
+		});
+		$('#myButton').click(function(){
+			$('.container').empty();// lam trong element
+		});
+		
+		$('#myButton').change(function(){
+			$('.container').empty();// lam trong element
+		});
+
+		$(document).on('click change', ':text', function(){
+			console.log('xin chao');
+		});
+
+		$('.my-text-h2').on('click', function(){
+			$(this).css('color', 'green');
+		});
+
+		$(document).on('click', '.my-text-h2', function(){
+			$(this).css('color', 'blue');
+		});
+
+
+	</script>
+</script>
+</html>
