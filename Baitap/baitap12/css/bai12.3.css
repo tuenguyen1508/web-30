@@ -4,6 +4,7 @@
 }
 ul {
 	list-style: none;
+
 }
 .menu ul {
 	position: absolute;
@@ -23,7 +24,7 @@ ul {
 .menu li:hover {
 	background-color: lightgreen;
 }
-.menu ul > ul {
+.menu ul ul {
 	left: 0px;top: 38px;
 	display: none;
 }
